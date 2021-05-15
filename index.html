@@ -3,17 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>SVGed</title>
+    <link rel="stylesheet" href="prism-dark.css" type="text/css">
+    <link rel="stylesheet" href="prism-live.css" type="text/css">
     <script src="svged.js"></script>
     <script src="xml-pretty.js"></script>
 </head>
 <body>
 
-<textarea name="svg-source" id="svg-source" cols="120" rows="35"></textarea>
+<style>
+.prism-live {
+  max-width: 1300px;
+  float: inline-start;
+}
+</style>
 
-<div id="svg-container" style="float: right; border: solid 1px black;"></div>
+<textarea spellcheck="false" class="prism-live language-html fill" name="svg-source" id="svg-source" cols="120" rows="35"></textarea>
 
+<div id="svg-container" style="border: solid 1px black; text-align: center;"></div>
+
+<!-- <script src="prism.js"></script>
+<script src="prism-live.js"></script> -->
 <script>
     docReady(initSvgEd);
 </script>
+<script src="prism.js"></script>
+<script src="prism-live.js"></script>
 </body>
 </html>

@@ -17,7 +17,7 @@ function initSvgEd () {
     <line x1="0" y1="10px" x2="40px" y2="10px" style="stroke:black;stroke-width:3px;"></line>
   </pattern>
 </defs>
-<rect x="0" y="0" rx="50%" style="fill:#ee66ee" width="400" height="400"></rect>
+<rect x="0" y="0" rx="50%" style="fill:#ee99aa" width="400" height="400"></rect>
 <circle cx="100" cy="150" r="50" stroke="black" stroke-width="3" fill="white"></circle>
 <circle cx="100" cy="160" r="5" stroke="black" stroke-width="3" fill="black"></circle>
 <circle cx="300" cy="150" r="50" stroke="black" stroke-width="3" fill="white"></circle>
